@@ -45,6 +45,6 @@ func readMessages(conn net.Conn) {
 		if err != nil {
 			log.Fatal("Lost connection to server.")
 		}
-		fmt.Println("Received:", msg)
+		fmt.Println(msg)
 	}
 }

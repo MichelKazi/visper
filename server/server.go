@@ -22,6 +22,7 @@ func Init() {
 	}
 
 	defer listener.Close()
+  fmt.Printf("%s connection listening on port %s", CONN_TYPE, PORT)
 
 	for {
 		conn, err := listener.Accept()
