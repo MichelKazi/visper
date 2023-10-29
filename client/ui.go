@@ -22,7 +22,7 @@ func (c *Client) layout(g *gocui.Gui) error {
 		if err != gocui.ErrUnknownView {
 			return err
 		}
-		inputView.Title = "Input"
+		inputView.Title = "Enter your message here"
 		inputView.Editable = true
 		inputView.Wrap = true
 

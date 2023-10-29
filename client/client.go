@@ -14,7 +14,7 @@ import (
 
 type Client struct {
 	ServerAddr     string
-	Protocol string
+	Protocol       string
 	Username       string
 	MessageChan    chan string
 	conn           net.Conn
